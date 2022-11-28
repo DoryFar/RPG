@@ -68,7 +68,7 @@ main {
 
 .avatar {
     width: 15vh;
-    height: 30vh;
+    height: 10vh;
     border: 2px solid #000721;
     max-width:100%;
     opacity: 0.8;
@@ -79,6 +79,7 @@ main {
 @media(min-width:550px){
     .avatar {
         width: 25vh;
+        height: 28vh;
     }
 }
 
@@ -139,7 +140,7 @@ main {
 
 @media(min-width:550px){
     .dice-container {
-        height: 30%;
+        height: 20%;
         border-bottom-left-radius: 3px;
         border-bottom-right-radius: 3px;
     }
