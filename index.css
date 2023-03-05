@@ -17,16 +17,6 @@ main {
     margin-top: .5rem;
 } 
 
-@media(min-width:550px){
-   main {
-        flex-direction: row;
-        margin:6vh 5vw;
-        justify-content: center;
-        width:86vw;
-        gap: 2rem;
-    } 
-}
-
 .character-card {
     height:14rem;
     margin-top: .5rem;
@@ -44,26 +34,11 @@ main {
                 0px 0px 10px rgba(117,182,214,0.2);
 }
 
-@media(min-width:550px){
-    .character-card {
-        border: 0.2rem solid #000721;
-        height:26rem;
-        width:37vw;
-    }
-}
-
 .name {
     margin: 1vh 0;
     width:100%;
     letter-spacing: 0.08em;
     font-size: 90%;
-}
-
-@media(min-width:550px){
-    .name {
-    margin: 2vh 0;
-    font-size: 100%;
-}
 }
 
 .avatar {
@@ -76,13 +51,6 @@ main {
     background-color: rgba(0, 7, 33, 0.8);
 }
 
-@media(min-width:550px){
-    .avatar {
-        width: 25vh;
-        height: 28vh;
-    }
-}
-
 .health {
     font-size:1.1rem;
     font-weight: normal;
@@ -91,12 +59,6 @@ main {
     margin: 1vh 5%;
     color:#ccc;
     letter-spacing: 0.03em
-}
-
-@media(min-width:550px){
-    .health {
-        margin: 2vh 5%;
-    }
 }
 
 .health b {
@@ -138,14 +100,6 @@ main {
     border-bottom-right-radius: 14px;
 }
 
-@media(min-width:550px){
-    .dice-container {
-        height: 20%;
-        border-bottom-left-radius: 3px;
-        border-bottom-right-radius: 3px;
-    }
-}
-
 .dice, .placeholder-dice{
     height:5.5vh;
     width:5.5vh;
@@ -155,14 +109,6 @@ main {
     color:#000721;
     text-align: center;
     line-height: 6vh;
-}
-
-@media(min-width:550px){
-.dice-container .dice, .dice-container .placeholder-dice{
-    height:10vh;
-    width:10vh;
-    line-height: 10.5vh;
-}
 }
 
 .dice-container .placeholder-dice{
@@ -188,12 +134,6 @@ button {
     box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.4);
 }
 
-@media(min-width:550px){
-    button {
-        margin-top: 0;
-    }
-}
-
 
 button:focus { outline: 0 }
 
@@ -204,4 +144,61 @@ button:focus { outline: 0 }
 
 .end-emoji{
     font-size: 80px;
+}
+
+@media(min-width:550px){
+    
+    .dice-container .dice, .dice-container .placeholder-dice{
+        height:10vh;
+        width:10vh;
+        line-height: 10.5vh;
+    }
+    
+    .dice-container {
+        height: 20%;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    
+    button {
+        margin-top: 0;
+    }
+    .health {
+        margin: 2vh 5%;
+    }
+    
+    .avatar {
+        width: 25vh;
+        height: 28vh;
+    }
+    
+    .name {
+        margin: 2vh 0;
+        font-size: 100%;
+    }
+    
+    .character-card {
+        border: 0.2rem solid #000721;
+        height:26rem;
+        width:37vw;
+    }
+    
+    main {
+        flex-direction: row;
+        margin:6vh 5vw;
+        justify-content: center;
+        width:86vw;
+        gap: 2rem;
+    } 
+    
+}
+
+@media(max-width:700px){
+    main {
+        flex-direction: column;
+        margin:6vh 5vw;
+        justify-content: center;
+        width:86vw;
+        gap: 2rem;
+    } 
 }
