@@ -196,9 +196,6 @@ button:focus { outline: 0 }
 @media(max-width:700px){
     main {
         flex-direction: column;
-        margin:6vh 5vw;
         justify-content: center;
-        width:86vw;
-        gap: 2rem;
     } 
 }
