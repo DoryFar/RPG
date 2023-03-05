@@ -18,7 +18,7 @@ main {
 } 
 
 .character-card {
-    height:14rem;
+    height:20rem;
     margin-top: .5rem;
     width:94vw;
     max-width: 230px;
@@ -42,8 +42,8 @@ main {
 }
 
 .avatar {
-    width: 15vh;
-    height: 10vh;
+    width: 20vh;
+    height: 20vh;
     border: 2px solid #000721;
     max-width:100%;
     opacity: 0.8;
